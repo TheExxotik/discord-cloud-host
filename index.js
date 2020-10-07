@@ -9,7 +9,6 @@ const Discord = require("discord.js");
         " Ltnda Dev",
         " Server promoter",
         " DM Exxotik#9999 to buy"
-		"Add the bot : https://discord.com/api/oauth2/authorize?client_id=763365414767034408&permissions=2147483639&scope=bot"
 
     ]
     setInterval(function(){
@@ -112,3 +111,4 @@ const Discord = require("discord.js");
 // login token
 });
 bot.login("NzYzMzY1NDE0NzY3MDM0NDA4.X32pcQ.cqsHUWmIwYwayqayxR4ERhi6PTs");
+bot.login(process.env.token);
