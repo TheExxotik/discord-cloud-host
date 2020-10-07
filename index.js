@@ -110,5 +110,5 @@ const Discord = require("discord.js");
 
 // login token
 });
-bot.login("NzYzMzY1NDE0NzY3MDM0NDA4.X32pcQ.cqsHUWmIwYwayqayxR4ERhi6PTs");
+
 bot.login(process.env.token);
